@@ -20,7 +20,7 @@ node {
   
     stage('deploy') {
       def resourceGroup = 'java'
-      def webAppName = 'bermtecusd'
+      def webAppName = 'samplewebapp1609'
       // login Azure
    //   withCredentials([usernamePassword(credentialsId: '3c160b57-09d1-414a-b98e-a448ea734524',passwordVariable: 'AZURE_CLIENT_SECRET', usernameVariable: 'AZURE_CLIENT_ID')]) {
        sh '''
